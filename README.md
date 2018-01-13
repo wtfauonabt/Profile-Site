@@ -13,7 +13,7 @@ The web-site is one paged.
 
 ## Built With
 
-    The website is a produced from the bases of Bootstrap.
+    The website is produced using the bases of Bootstrap.
     Examples of Bootstrap usage was acquired from:
         http://getbootstrap.com/getting-started/
 
