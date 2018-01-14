@@ -1,3 +1,40 @@
+<!--
+    Created by Stanley Yeung
+
+    A Curriculum Vita web-site.
+    The web-site is one paged.
+    It can store:
+        Personal information (Profile, Skills, Experience)
+        Portfolio
+        Contact Section
+
+    A form is presented in the contact section which allows
+    information to be sent directly to user's email.
+
+    The website is a produced from the bases of Bootstrap.
+    Examples of Bootstrap usage was acquired from:
+        http://getbootstrap.com/getting-started/
+
+    The web-site was created for my personal use.
+    I would greatly appreciate if referencing was made to
+    replicates of the code.
+-->
+
+<!--
+    Version 2:
+        - Completed js and PHP for Contact form
+        - Made changes to CSS format
+-->
+
+<!--
+    Version 3:
+        - Included portfolio section
+        - Made changes to CSS format
+        - Added favicon
+        - Experience section added links to companies
+        - Updated experience section
+        - Updated profile section
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -151,34 +188,14 @@
 
                 <div class="row">
 
-                    <div class="col-md-4">
-                        <h3>Warehouse worker & Website developer</h3>
-                        <a href="http://www.totaramarketing.co.nz">
-                            <h4>Totara Marketing Limited</h4>
-                        </a>
-                        <h4>East Tamaki</h4>
-                        <h4>Feb 2014 – Current</h4>
-                        <p> </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h3>IT Support & Office admin</h3>
+                    <div class="col-md-12">
+                        <h3>IT Support, Warehouse Admin, Plumbing Specialist</h3>
                         <a href="http://www.spk.co.nz">
                             <h4>SPK Industries</h4>
                         </a>
                         <h4>East Tamaki</h4>
                         <h4>Feb 2014 – Current</h4>
-                        <p>Provide support for company computers, printers and networks. Manage, update and maintain company website. Design product packaging and specification sheets. Take and photoshop product photos. Use of ERP system for sales order input, check and process. </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h3>Plumbing Speacialist</h3>
-                        <a href="http://www.rch.co.nz">
-                            <h4>Radiant Central Heating</h4>
-                        </a>
-                        <h4>East Tamaki</h4>
-                        <h4>Jul 2014 – Current</h4>
-                        <p>Building central heating panels. Being a fast learner,  </p>
+                        <p>Provide support for company computers, printers and networks. Created, update and maintain company website. Design product packaging and specification sheets. Take and photoshop product photos. Experienced usage of ERP system in daily work (input, check, process, enquire, update). Participate within the warehouse when needed (Packing, building pallets, stocktake). Building underfloor heating panels.</p>
                     </div>
 
                 </div>
@@ -257,7 +274,7 @@
                         </div>
 
                         <div class="col-sm-4 portfolio-item">
-                            <a href="src/rst.apk" class="portfolio-link" data-toggle="modal">
+                            <a href="https://s3-us-west-2.amazonaws.com/rst-apk/rst.apk" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
@@ -272,7 +289,18 @@
                     <div class="row">
 
                         <div class="col-sm-4 portfolio-item">
-                            <a href="https://www.spk.co.nz" class="portfolio-link" data-toggle="modal">
+                            <a href="https://s3.ap-northeast-2.amazonaws.com/moshify/moshify_v1.0.4.apk" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/moshify_logo.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="http://www.spk.co.nz" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
@@ -282,8 +310,9 @@
                             </a>
                         </div>
 
+
                         <div class="col-sm-4 portfolio-item">
-                            <a href="https://www.totara.co.nz" class="portfolio-link" data-toggle="modal">
+                            <a href="https://www.totaramarketing.co.nz" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
                                         <i class="fa fa-search-plus fa-3x"></i>
@@ -300,7 +329,7 @@
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/oum_logo.jpg" class="img-responsive" alt="">
+                                <img src="img/portfolio/oum_logo.png" class="img-responsive" alt="">
                             </a>
                         </div>
 
@@ -355,7 +384,7 @@
                             <div id="success"></div>
                             <div class="row">
                                 <div class="form-group col-xs-12">
-                                    <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                    <button type="submit" class="btn btn-secondary btn-lg">Send</button>
                                 </div>
                             </div>
                         </form>
