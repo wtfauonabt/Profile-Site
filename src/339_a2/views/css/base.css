@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0dc478;
+}
+
+li {
+    color:white;
+}
+
+li h1 {
+    float: left;
+    padding: 0px 16px;
+}
+
+li a, p {
+    float:right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #076b41;
+}
+
+li a:visited {
+    background-color: #076b41;
+}
+
