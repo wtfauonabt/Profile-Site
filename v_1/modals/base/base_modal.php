@@ -16,5 +16,10 @@ class BaseModal{
     /********************
     // PUBLIC FUNC
     *********************/
+    public function testDB()
+    {
+        $this->conn->openConnection();
+        $this->conn->closeConnection();
+    }
 }
 

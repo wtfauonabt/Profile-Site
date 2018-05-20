@@ -30,8 +30,39 @@ class  BaseController
             // Including Navigation Bar View
             include ('views/nav/nav_view.php');
 
+            // Including Header Bar View
+            include ('views/header/header_view.php');
+
+            // Including Profile Bar View
+            include ('views/profile/profile_view.php');
+
+            // Including Portfolio Bar View
+            include ('views/portfolio/portfolio_view.php');
+
+            // Including Skllls Bar View
+            include ('views/skills/skills_view.php');
+
+            // Including Work Bar View
+            include ('views/work/work_view.php');
+
+            // Including Contact Bar View
+            include ('views/contact/contact_view.php');
+
+            // Including Footer Bar View
+            include ('views/footer/footer_view.php');
+
+
+
+
+
             // Include JS Scripts
             include ('views/base/js/base_js_view.php');
+
+            // Include JS Scripts
+            include ('views/nav/js/nav_js_view.php');
+
+            // Include JS Scripts
+            include ('views/contact/js/contact_js_view.php');
 
 
         } catch (Exception $e){
