@@ -4,6 +4,8 @@
 
     set_include_path(BASE_PATH);
 
-    require_once('controllers/basecontroller.php');
+    require_once('controllers/base_controller.php');
 
-    require_once('models/connectdb.php');
+    require_once('models/base/sql/connectdb.php');
+    require_once('models/base/base_modal.php');
+
