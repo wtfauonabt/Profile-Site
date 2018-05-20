@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -19,10 +19,10 @@ s<!DOCTYPE html>
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
         <!-- base CSS -->
-        <link rel="stylesheet" href="views/base/base_css.php" >
+        <link rel="stylesheet" href="views/base/css/base_css.php" >
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="views/base/bootstrap/theme.min.css">
+        <link rel="stylesheet" href="views/base/css/theme.min.css">
 <!---
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 -->

@@ -27,6 +27,13 @@ class  BaseController
             // Including Base View
             include ('views/base/base_view.php');
 
+            // Including Navigation Bar View
+            include ('views/nav/nav_view.php');
+
+            // Include JS Scripts
+            include ('views/base/js/base_js_view.php');
+
+
         } catch (Exception $e){
 
             echo "Caught exception: " . $e->getMessage() . "<br>";

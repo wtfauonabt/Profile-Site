@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head></head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="views/nav/nav_css.php">
+    </head>
 
     <body id="page-top">
         <!--[if lt IE 8]>
