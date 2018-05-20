@@ -9,3 +9,5 @@
     require_once('modals/base/sql/connectdb.php');
     require_once('modals/base/base_modal.php');
 
+    require_once('modals/contact/contact_modal.php');
+

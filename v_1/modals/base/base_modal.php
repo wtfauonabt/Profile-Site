@@ -9,7 +9,8 @@ class BaseModal{
     /********************
     // Constructor
     *********************/
-    public function __construct($conn){
+    public function __construct($conn)
+    {
         $this->conn = $conn;
     }
 

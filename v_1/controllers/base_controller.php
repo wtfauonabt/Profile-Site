@@ -23,7 +23,11 @@ class  BaseController
     public function handleRequest()
     {
         try{
-
+            if  (isset($_POST["submit"])) {
+                $control_modal = new ControlModal();
+                $control_modal.validate();
+                $control_modal.send();
+            }
             // Including Base View
             include ('views/base/base_view.php');
 
