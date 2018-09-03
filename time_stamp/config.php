@@ -31,6 +31,7 @@ class Config {
         self::$db["time_stamp"]["field"]["purpose"]  = "Purpose";
         self::$db["time_stamp"]["field"]["start"]    = "Start";
         self::$db["time_stamp"]["field"]["end"]      = "End";
+        self::$db["time_stamp"]["field"]["time"]     = "Time Used";
     }
 }
 

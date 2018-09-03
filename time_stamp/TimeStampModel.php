@@ -62,6 +62,7 @@ class TimeStampModel
             }
             if(isset($_output["end"])){
                 $_output["end"] = $this->addTimezone($_output["end"]);
+                $_output["time"] = $this->calcTime($_output["start"], $_output["end"]);
             }
             array_push($output, $_output);
         }
@@ -71,7 +72,17 @@ class TimeStampModel
 
     public function insertTimeStamp($data){
         $conn = $this->getConn();
-        $sql = "INSERT INTO {$this->table} (name, purpose) VALUES ({$data['name']}, {$data['purpose']})";
+        $sql = "INSERT INTO {$this->table} (user, purpose) VALUES ({$data['user']}, {$data['purpose']})";
+        mysqli_query($conn, $sql);
+        $affected_row = mysqli_affected_rows($conn);
+        $this->closeConn($conn);
+
+        return $affected_row;
+    }
+
+    public function endTimeStamp($data){
+        $conn = $this->getConn();
+        $sql = "UPDATE {$this->table} SET end=CURRENT_TIMESTAMP WHERE id='{$data['id']}'";
         mysqli_query($conn, $sql);
         $affected_row = mysqli_affected_rows($conn);
         $this->closeConn($conn);
@@ -90,5 +101,14 @@ class TimeStampModel
         $eight_hours = 60 * 60 * 8;
         $changed_date = date("d-m-Y H:i:s", strtotime($date) - $eight_hours);
         return $changed_date;
+    }
+
+    private function calcTime($start, $end){
+        $start_date = new DateTime($start);
+        $end_date = new DateTime($end);
+        $time = date("H:i", strtotime($end) - strtotime($start));
+        //$time = date_diff($start_date, $end_date);
+
+        return $time;
     }
 }

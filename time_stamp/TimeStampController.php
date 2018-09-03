@@ -43,11 +43,11 @@ class TimeStampController{
             throw new Exception("Must Post");
         }
         $data = array();
-        $data['name'] = $_POST['name'];
+        $data['user'] = $_POST['user'];
         $data['purpose'] = $_POST['purpose'];
         $model = new TimeStampModel();
-        $success = $model->insertTimeStamp($data);
-        if(!$success){
+        $affected = $model->insertTimeStamp($data);
+        if($affected != 1){
             throw new Exception("Create failed");
         }
         $this->showMessage("Record created successfully");
@@ -65,21 +65,29 @@ class TimeStampController{
     }
 
     public function updateTimeStamp(){
-        if(!isset($_POST["data"])){
-            throw new Exception("Update data missing");
+        if($_SERVER['REQUEST_METHOD'] != "POST"){
+            throw new Exception("Must Post");
         }
+        var_dump($_POST);
+        $data = array();
+        $data['id'] = $_POST['id'];
+        $model = new TimeStampModel();
+        $affected = $model->endTimeStamp($data);
+        if($affected != 1){
+            throw new Exception("Update failed");
+        }
+        $this->showMessage("Timestamp updated successfully");
     }
 
     public function deleteTimeStamp(){
         if(!isset($_POST["data"])){
             throw new Exception("Delete data missing");
         }
-
-
     }
 
     private function showMessage($message){
         $_SESSION['message'] = $message;
-        $this->index();
+        $this->readTimeStamp();
+        include (__DIR__."/TimeStampView.php");
     }
 }
