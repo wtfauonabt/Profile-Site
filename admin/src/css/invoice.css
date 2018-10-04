@@ -1,0 +1,48 @@
+
+.invoice{
+	/* Fallback for browsers do NOT support vh unit */
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+
+	font-size: 11px;
+}
+
+.invoice .title{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.invoice h5{
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+.invoice p{
+	margin: 0;
+}
+
+.invoice .card-title{
+	margin:0;
+}
+
+.invoice .card{
+	margin-bottom: 10px;
+}
+
+.invoice .contact td{
+	margin:0;
+	padding:0;
+}
+
+.invoice .card-body{
+	padding:10px;
+}
+
+.invoice .card-body td{
+	padding:0px;
+}

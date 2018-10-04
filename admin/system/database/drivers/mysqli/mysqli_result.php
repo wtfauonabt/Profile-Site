@@ -146,7 +146,7 @@ class CI_DB_mysqli_result extends CI_DB_result {
 			MYSQLI_TYPE_LONGLONG    => 'bigint',
 			MYSQLI_TYPE_FLOAT       => 'float',
 			MYSQLI_TYPE_DOUBLE      => 'double',
-			MYSQLI_TYPE_TIMESTAMP   => 'timestamp',
+			MYSQLI_TYPE_TIMESTAMP   => 'TimeStampModel',
 			MYSQLI_TYPE_DATE        => 'date',
 			MYSQLI_TYPE_TIME        => 'time',
 			MYSQLI_TYPE_DATETIME    => 'datetime',

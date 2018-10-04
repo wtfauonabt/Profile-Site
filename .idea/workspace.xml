@@ -1,15 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/time_stamp/TimeStampModel.php" line="84" />
+    <bookmark url="file://$PROJECT_DIR$/admin/application/controllers/TimeStamp.php" line="42" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af4588e3-587d-424a-a397-f175cd2ce454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/controllers/MY_Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/controllers/TimeStamp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/controllers/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/models/InvoiceModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/models/TimeStampModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/config/ion_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/contributing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/controllers/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/arabic/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/arabic/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/bengali/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/bengali/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/bulgarian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/bulgarian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/catalan/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/catalan/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/croatian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/croatian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/czech/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/czech/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/danish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/danish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/dutch/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/dutch/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/english/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/english/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/estonian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/estonian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/filipino/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/filipino/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/finnish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/finnish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/french/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/french/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/german/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/german/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/greek/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/greek/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/hungarian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/hungarian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/indonesian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/indonesian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/italian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/italian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/japanese/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/japanese/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/korean/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/korean/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/lithuanian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/lithuanian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/norwegian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/norwegian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/persian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/persian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/pirate/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/pirate/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/polish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/polish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/portuguese/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/portuguese/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/romanian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/romanian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/russian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/russian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/slovak/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/slovak/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/slovenian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/slovenian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/spanish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/spanish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/swedish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/swedish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/thai/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/thai/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/turkish/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/turkish/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/ukrainian/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/ukrainian/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/vietnamese/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/vietnamese/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/zh_cn/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/zh_cn/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/zh_tw/auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/language/zh_tw/ion_auth_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/libraries/Bcrypt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/libraries/Ion_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/migrations/001_install_ion_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/models/Ion_auth_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/sql/ion_auth.mssql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/sql/ion_auth.postgre.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/sql/ion_auth.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/images/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/images/nav_bg_darker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/images/nav_separator_darker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/images/nav_toggle_darker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/userguide/userguide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/change_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/create_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/create_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/deactivate_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/edit_group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/edit_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/email/activate.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/email/forgot_password.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/email/new_password.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/forgot_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/third_party/ion_auth/views/auth/reset_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/views/invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/application/views/timestamp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/css/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/css/timestamp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/js/invoice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/js/timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/js/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_stamp/TimeStampController.php" beforeDir="false" afterPath="$PROJECT_DIR$/time_stamp/TimeStampController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_stamp/TimeStampModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/time_stamp/TimeStampModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_stamp/TimeStampView.php" beforeDir="false" afterPath="$PROJECT_DIR$/time_stamp/TimeStampView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_stamp/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/time_stamp/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/constants.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/doctypes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/foreign_chars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/hooks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/memcached.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/migration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/mimes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/profiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/smileys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/application/config/user_agents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/TimeStampController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/model/TimeStampModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/database/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/database/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/database/drivers/mysqli/mysqli_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/database/drivers/mysqli/mysqli_result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/libraries/Cache/Cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/libraries/Cache/Cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/libraries/Cache/drivers/Cache_apc.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/libraries/Cache/drivers/Cache_apc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/libraries/Migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/libraries/Migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/libraries/Session/drivers/Session_database_driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/libraries/Session/drivers/Session_database_driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/libraries/Xmlrpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/libraries/Xmlrpc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tests/mocks/database/schema/skeleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tests/mocks/database/schema/skeleton.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/339_a2/controllers/basecontroller (1).php" beforeDir="false" afterPath="$PROJECT_DIR$/src/339_a2/controllers/basecontroller (1).php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/339_a2/controllers/basecontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/339_a2/controllers/basecontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/339_a2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/339_a2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/339_a2/models/usermodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/339_a2/models/usermodel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curriculum Vitae Chi Fung Stanley Yeung.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Curriculum_Vitae_Chi_Fung_Stanley_Yeung.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_stamp/TimeStampView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_stamp/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_stamp/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v_1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/v_1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v_1/src/339_a2/controllers/basecontroller (1).php" beforeDir="false" afterPath="$PROJECT_DIR$/v_1/src/339_a2/controllers/basecontroller (1).php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v_1/src/339_a2/controllers/basecontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/v_1/src/339_a2/controllers/basecontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v_1/src/339_a2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/v_1/src/339_a2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v_1/src/339_a2/models/usermodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/v_1/src/339_a2/models/usermodel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,45 +185,60 @@
     <session id="-1651876046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="php" value="12" />
+          <entry key="css" value="7" />
+          <entry key="gitignore" value="5" />
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="5" />
+          <entry key="invoice" value="1" />
+          <entry key="js" value="6" />
+          <entry key="php" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="PHP" value="12" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="6" />
+          <entry key="PHP" value="86" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="38" />
-          <entry key="php" value="7397" />
+          <entry key="css" value="524" />
+          <entry key="dummy" value="74" />
+          <entry key="gitignore" value="114" />
+          <entry key="htaccess" value="6" />
+          <entry key="html" value="57" />
+          <entry key="php" value="19268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="7397" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="CSS" value="524" />
+          <entry key="HTML" value="57" />
+          <entry key="PHP" value="19268" />
+          <entry key="PLAIN_TEXT" value="188" />
+          <entry key="htaccess" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="1" />
+          <entry key="PHP Class.type" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -70,68 +246,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampController.php">
+        <entry file="file://$PROJECT_DIR$/admin/application/controllers/TimeStamp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="e#6#109#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="1071">
+              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/admin/application/views/invoice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="966">
+              <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v_1/controllers/base_controller.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/application/controllers/MY_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampView.php">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="1275">
+              <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampModel.php">
+        <entry file="file://$PROJECT_DIR$/admin/application/models/InvoiceModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="595">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/time_stamp/index.php">
+        <entry file="file://$PROJECT_DIR$/admin/application/third_party/ion_auth/controllers/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="6307">
+              <caret line="371" column="42" selection-start-line="371" selection-start-column="34" selection-end-line="371" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/time_stamp/config.php">
+        <entry file="file://$PROJECT_DIR$/admin/application/views/timestamp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="2499">
+              <caret line="152" column="10" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>crea</find>
       <find>sess</find>
+      <find>dir</find>
+      <find>welcome</find>
+      <find>session</find>
+      <find>get_users_groups</find>
+      <find>e</find>
+      <find>base</find>
+      <find>subclass</find>
+      <find>is_admin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,13 +343,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lccs/controller/UserController.php" />
+        <option value="$PROJECT_DIR$/lccs/model/UserModel.php" />
+        <option value="$PROJECT_DIR$/lccs/model/DBConn.php" />
+        <option value="$PROJECT_DIR$/timestamp/controller/TimeStampController.php" />
+        <option value="$PROJECT_DIR$/timestamp/view/TimeStampView.php" />
+        <option value="$PROJECT_DIR$/timestamp/model/DBConn.php" />
+        <option value="$PROJECT_DIR$/timestamp/index.php" />
+        <option value="$PROJECT_DIR$/timestamp/view/UserView.php" />
+        <option value="$PROJECT_DIR$/timestamp/src/css/user.css" />
+        <option value="$PROJECT_DIR$/timestamp/model/UserModel.php" />
+        <option value="$PROJECT_DIR$/timestamp/config.php" />
+        <option value="$PROJECT_DIR$/timestamp/controller/UserController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/admin/config.php" />
+        <option value="$PROJECT_DIR$/admin/view/TimeStampView.php" />
+        <option value="$PROJECT_DIR$/admin/model/Session.php" />
+        <option value="$PROJECT_DIR$/admin/view/ExceptionView.php" />
+        <option value="$PROJECT_DIR$/admin/model/DBConn.php" />
+        <option value="$PROJECT_DIR$/admin/controller/Base.php" />
+        <option value="$PROJECT_DIR$/admin/model/UserModel.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/Welcome.php" />
+        <option value="$PROJECT_DIR$/admin/controller/UserController.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/Login.php" />
+        <option value="$PROJECT_DIR$/admin/application/config/database.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/base.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/login.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/admin/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/admin/.gitignore" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/admin/.htaccess" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/src/css/user.css" />
+        <option value="$PROJECT_DIR$/admin/application/models/TimeStamp.php" />
+        <option value="$PROJECT_DIR$/admin/application/third_party/ion_auth/libraries/Ion_auth.php" />
+        <option value="$PROJECT_DIR$/admin/application/views/login.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/User.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/Base.php" />
+        <option value="$PROJECT_DIR$/admin/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/MY_Controller.php" />
         <option value="$PROJECT_DIR$/admin/application/config/config.php" />
-        <option value="$PROJECT_DIR$/time_stamp/index.php" />
-        <option value="$PROJECT_DIR$/time_stamp/config.php" />
-        <option value="$PROJECT_DIR$/time_stamp/TimeStampModel.php" />
-        <option value="$PROJECT_DIR$/time_stamp/TimeStampController.php" />
-        <option value="$PROJECT_DIR$/time_stamp/TimeStampView.php" />
+        <option value="$PROJECT_DIR$/admin/src/js/invoice.js" />
+        <option value="$PROJECT_DIR$/admin/application/models/TimeStampModel.php" />
+        <option value="$PROJECT_DIR$/admin/application/config/constants.php" />
+        <option value="$PROJECT_DIR$/admin/src/css/invoice.css" />
+        <option value="$PROJECT_DIR$/admin/application/views/invoice.php" />
+        <option value="$PROJECT_DIR$/admin/application/models/InvoiceModel.php" />
+        <option value="$PROJECT_DIR$/admin/application/controllers/TimeStamp.php" />
+        <option value="$PROJECT_DIR$/admin/application/views/timestamp.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -156,8 +403,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2958" />
+    <option name="y" value="168" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -166,6 +414,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,21 +425,39 @@
             <path>
               <item name="profile_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="time_stamp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profile_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/stanley/vagrant/profile_site/html/time_stamp/TimeStampView.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../antiant" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\admin\application\controllers" />
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\admin\application\views" />
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\lccs\view" />
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\lccs\model" />
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\lccs\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\lccs\model" />
+      <recent name="C:\Users\stanley\vagrant\profile_site\html\lccs\view" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,21 +490,28 @@
       <workItem from="1534587154211" duration="1314000" />
       <workItem from="1535033093861" duration="1300000" />
       <workItem from="1535794223519" duration="983000" />
+      <workItem from="1537590727377" duration="8047000" />
+      <workItem from="1537644020605" duration="28000" />
+      <workItem from="1537644066345" duration="18794000" />
+      <workItem from="1537939259708" duration="40079000" />
+      <workItem from="1538233018156" duration="13472000" />
+      <workItem from="1538537160305" duration="1236000" />
+      <workItem from="1538665587270" duration="1186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34789000" />
+    <option name="totallyTimeSpent" value="117631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-3008" y="-487" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28446388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23069498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -254,11 +528,11 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28446388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25223213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -282,42 +556,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/time_stamp/time_stamp.php" />
-    <entry file="file://$PROJECT_DIR$/time_stamp/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/time_stamp/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -325,27 +564,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampModel.php">
+    <entry file="file://$PROJECT_DIR$/admin/controller/TimeStampController.php" />
+    <entry file="file://$PROJECT_DIR$/admin/src/js/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampController.php">
+    <entry file="file://$PROJECT_DIR$/admin/model/TimeStampModel.php" />
+    <entry file="file://$PROJECT_DIR$/admin/view/TimeStampView.php" />
+    <entry file="file://$PROJECT_DIR$/admin/view/ExceptionView.php" />
+    <entry file="file://$PROJECT_DIR$/admin/model/Session.php" />
+    <entry file="file://$PROJECT_DIR$/admin/model/DBConn.php" />
+    <entry file="file://$PROJECT_DIR$/admin/application/helpers/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/libraries/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/admin/model/UserModel.php" />
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#109#0#PHP" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_stamp/TimeStampView.php">
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/AuthController.php" />
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/Auth.php" />
+    <entry file="file://$PROJECT_DIR$/admin/application/libraries/Ion_auth.php" />
+    <entry file="file://$PROJECT_DIR$/admin/application/models/Ion_auth_model.php" />
+    <entry file="file://$PROJECT_DIR$/admin/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/third_party/ion_auth/libraries/Ion_auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8789">
+          <caret line="517" column="67" selection-start-line="517" selection-start-column="51" selection-end-line="517" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/third_party/ion_auth/models/Ion_auth_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28203">
+          <caret line="1659" column="23" selection-start-line="1659" selection-start-column="7" selection-end-line="1659" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3126">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/invoice" />
+    <entry file="file://$PROJECT_DIR$/admin/application/views/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="79" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/js/invoice.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/js/timestamp.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="181" column="21" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/css/timestamp.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="92" column="63" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/models/TimeStampModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/css/invoice.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/TimeStamp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/models/InvoiceModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/third_party/ion_auth/controllers/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6307">
+          <caret line="371" column="42" selection-start-line="371" selection-start-column="34" selection-end-line="371" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/timestamp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="152" column="10" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/views/invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_1/controllers/base_controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/application/controllers/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
         </state>
       </provider>
     </entry>

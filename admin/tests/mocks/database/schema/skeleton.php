@@ -76,7 +76,7 @@ class Mock_Database_Schema_Skeleton {
 			)
 		));
 		self::$forge->add_key('id', TRUE);
-		self::$forge->create_table('user', TRUE);
+		self::$forge->create_table('User', TRUE);
 
 		// Job Table
 		self::$forge->add_field(array(
@@ -122,7 +122,7 @@ class Mock_Database_Schema_Skeleton {
 	{
 		// Job Data
 		$data = array(
-			'user' => array(
+			'User' => array(
 				array('id' => 1, 'name' => 'Derek Jones', 'email' => 'derek@world.com', 'country' => 'US'),
 				array('id' => 2, 'name' => 'Ahmadinejad', 'email' => 'ahmadinejad@world.com', 'country' => 'Iran'),
 				array('id' => 3, 'name' => 'Richard A Causey', 'email' => 'richard@world.com', 'country' => 'US'),

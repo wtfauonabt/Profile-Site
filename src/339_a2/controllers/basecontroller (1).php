@@ -16,7 +16,7 @@ class  BaseController
 
     public function __construct(){
         $conn = new ConnectDB();
-        $this->user_controller = new UserController($conn);
+        $this->user_controller = new User($conn);
         $this->acc_controller = new AccController($conn);
         $this->tran_controller = new TranController($conn);
     }

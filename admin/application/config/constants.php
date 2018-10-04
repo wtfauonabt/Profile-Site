@@ -83,3 +83,16 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+defined('BASE_URL')			OR define('BASE_URL', "http://dev.syeung527.com/admin/");
+defined('INDEX_URL')			OR define('INDEX_URL', BASE_URL . "index.php/");
+defined('SRC_URL')			OR define('SRC_URL', BASE_URL . "src/");
+
+defined('CSS_URL')			OR define('CSS_URL', SRC_URL . 'css/');
+defined('JS_URL')				OR define('JS_URL', SRC_URL . 'js/');
+defined('IMG_URL')			OR define('IMG_URL', SRC_URL . 'img/');
+
+defined('USER_URL')			OR define('USER_URL', INDEX_URL . 'user/');
+defined('TIMESTAMP_URL')		OR define('TIMESTAMP_URL', INDEX_URL . 'timestamp/');
+
+

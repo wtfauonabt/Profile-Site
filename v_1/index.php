@@ -2,6 +2,6 @@
 
 require_once('config-ini.php');
 
-$controller = new BaseController();
+$controller = new base();
 
 $controller->handleRequest();
