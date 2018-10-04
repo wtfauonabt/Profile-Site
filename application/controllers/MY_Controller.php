@@ -26,6 +26,13 @@ class MY_Controller extends CI_Controller
 
 	public function index()
 	{
+		if($this->input->get("admin")){
+			$this->admin();
+		}
+		$this->load->view("front/base");
+	}
+
+	public function admin(){
 		if(!$this->ion_auth->logged_in()){
 			redirect(USER_URL . 'login', 'refresh');
 		}
