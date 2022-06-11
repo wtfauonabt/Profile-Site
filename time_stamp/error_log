@@ -1,0 +1,48 @@
+[28-Apr-2019 06:58:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[28-Apr-2019 06:58:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[28-Apr-2019 06:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[04-May-2019 15:02:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[04-May-2019 15:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(36): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[30-Aug-2019 19:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[30-Aug-2019 19:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136
+[30-Aug-2019 19:30:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php:136
+Stack trace:
+#0 /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampController.php(33): include()
+#1 /home/u523696449/domains/syeung527.com/public_html/time_stamp/index.php(13): TimeStampController->index()
+#2 {main}
+  thrown in /home/u523696449/domains/syeung527.com/public_html/time_stamp/TimeStampView.php on line 136

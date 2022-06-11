@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    <title>Pano Info Demo</title>
+    <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #000;
+      }
+
+      a:link, a:visited{
+        color: #bdc3c7;
+      }
+
+      .credit{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+        color: #fff;
+      }
+
+      #desc-container {
+        max-width: 1000px;
+        max-height: 1000px;
+        min-width: 500px;
+        min-height: 550px;
+        background: #fff;
+        color: #000;
+        border-radius: 3px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      #desc-container > iframe {
+        border: none;
+        width:100%;
+        height: 100%;
+      }
+
+      .title {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 5px;
+      }
+
+      .text {
+        padding: 0 20px 20px 20px;
+      }
+    </style>
+        <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #000;
+      }
+
+      a:link, a:visited{
+        color: #bdc3c7;
+      }
+
+      .credit{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+
+  <div id="desc-container" style="display:none">
+      <iframe src="https://syeung527.com/demo/coat.html"></iframe>
+    </div>
+
+  <script src="../build/three.min.js"></script>
+  <script src="../build/panolens.js"></script>
+
+
+
+  <div id="panolens-separate-container"></div>
+
+    <script>
+      var infospot, infospot2, panorama, viewer;
+
+      infospot = new PANOLENS.Infospot();
+      infospot.position.set( 1000.00, 1000, -3996.49 );
+      infospot.addHoverText( 'Summer Collection' );
+
+      infospot2 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
+      infospot2.position.set( -1000.00, 1000, 3996.49 );
+      infospot2.addHoverElement( document.getElementById( 'desc-container' ), 200 );
+
+      panorama = new PANOLENS.ImagePanorama( 'asset/textures/equirectangular/Aseesha+Reduced+Size+for+Web1+copy.jpg' );
+      panorama.add( infospot );
+      panorama.add( infospot2 );
+      viewer = new PANOLENS.Viewer( { output: 'console' } );
+      viewer.add( panorama );
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,5 @@
+[04-Sep-2019 12:24:40 UTC] PHP Warning:  Error while sending QUERY packet. PID=398912 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2007
+[04-Sep-2019 14:08:16 UTC] PHP Warning:  Error while sending QUERY packet. PID=7559 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2007
+[04-Sep-2019 14:29:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=7527 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2007
+[07-Jan-2020 06:17:42 UTC] PHP Warning:  Error while sending QUERY packet. PID=189569 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2007
+[07-Mar-2020 15:58:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=211826 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030

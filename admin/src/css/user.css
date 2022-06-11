@@ -1,0 +1,13 @@
+.login{
+	/* Fallback for browsers do NOT support vh unit */
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.login .row{
+    margin: 0 auto;
+    width:40%;
+    height:100%;
+}

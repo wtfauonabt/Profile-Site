@@ -170,11 +170,6 @@ footer .footer-below {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-.portfolio-modal .modal-content .buttons {
-    padding-top: 30px;
-}
-
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
@@ -190,12 +185,6 @@ footer .footer-below {
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
-.portfolio-modal .close-modal span {
-    font-size: 30px;
-}
-
-
-
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;

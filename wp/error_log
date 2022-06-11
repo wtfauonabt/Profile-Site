@@ -1,0 +1,9 @@
+[04-Sep-2019 14:43:18 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/u523696449/domains/syeung527.com/public_html/wp/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 134
+[07-Jan-2020 05:53:56 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/u523696449/domains/syeung527.com/public_html/wp/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 134
+[07-Jan-2020 05:54:09 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/u523696449/domains/syeung527.com/public_html/wp/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 134
+[07-Jan-2020 05:54:57 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/u523696449/domains/syeung527.com/public_html/wp/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 134
+[26-Sep-2020 07:58:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=383688 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030
+[20-Nov-2020 07:29:13 UTC] PHP Warning:  Error while sending QUERY packet. PID=420974 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030
+[05-Jan-2021 12:42:27 UTC] PHP Warning:  Error while sending QUERY packet. PID=207263 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030
+[04-Mar-2021 22:48:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=301864 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030
+[04-Mar-2021 22:49:15 UTC] PHP Warning:  Error while sending QUERY packet. PID=318827 in /home/u523696449/domains/syeung527.com/public_html/wp/wp-includes/wp-db.php on line 2030

@@ -1,0 +1,33 @@
+# Blender MTL File: 'coat 5.blend'
+# Material Count: 3
+
+newmtl Cloth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:\\work\\Ali Data\\ABZ\\Documentation\\J000026-Women Coat\\Textures\\contrast adjusted.png
+
+newmtl mannequin
+Ns 689.062500
+Ka 0.308333 0.308333 0.308333
+Kd 0.800000 0.800000 0.800000
+Ks 0.825000 0.825000 0.825000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl simple
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.102474 0.102474 0.102474
+Ni 1.450000
+d 1.000000
+illum 1
